@@ -13,7 +13,7 @@ h2 {
 }
 
 .intro-name {
-  margin: 40px;
+  margin: 0px 0px 40px 0px;
 }
 
 .intro-detail {
@@ -24,8 +24,8 @@ h2 {
 .top-container {
   background-color: #79a3b1;
   position: relative;
-  padding-top: 35px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0px 0px 0px 0px;
   height: 200px;
   color: white;
@@ -36,7 +36,7 @@ h2 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 50px 0px 0px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 .middle-container {
@@ -49,18 +49,13 @@ h2 {
 }
 .bottom-container {
   background-color: #d0e8f2;
-  padding: 30px 0px 30px 0px;
+  padding: 15px;
+  margin: 0px;
   font-family: "Andika New Basic", sans-serif;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
+.copyright {
+  margin: 0px;
 }
 
 hr {
@@ -68,4 +63,8 @@ hr {
   border: 3px dashed #efd9d1;
   border-bottom: none;
   width: 20%;
+}
+
+.navbar {
+  margin-bottom: 0px;
 }
